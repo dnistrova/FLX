@@ -210,6 +210,11 @@ h1 span {
   background: #097774;
   color: #ffffff;
 }
+.post button:hover {
+background-color: #ffffff;
+color: #343638;
+cursor: pointer;
+}
 
 .subscribe {
   position: relative;
