@@ -1,0 +1,365 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #F3F3F3;
+  overflow-x: hidden;
+}
+
+button {
+  border: none;
+  outline: none;
+}
+
+header {
+  height: 740px;
+  background: url(../img/sample2.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+hr {
+  border-bottom: 1px solid #e8e8e8;
+  margin-top: 70px;
+}
+
+.logo {
+  margin-top: 40px;
+  margin-left: 48px;
+  float: left;
+  letter-spacing: 2px;
+}
+
+.logo a {
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.main-header nav ul {
+  padding-top: 34px;
+  margin-right: 42px;
+  float: right;
+}
+
+.main-header nav ul li {
+  display: inline-block;
+  padding: 0 22px;
+}
+
+.main-header nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.main-header nav ul li a:hover,
+.logo a:hover {
+  color: #343638;
+}
+
+.heading {
+  width: 100%;
+  top: 22%;
+  margin: 0 auto;
+  position: absolute;
+  text-align: center;
+}
+
+h1 {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: normal;
+  letter-spacing: 14px;
+  margin-bottom: 10px;
+}
+
+h1 span {
+  font-size: 200%;
+}
+
+.heading h2 {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.button-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 9% 13% 0;
+}
+
+.button-link {
+  height: 50px;
+  width: 200px;
+  border: 2px solid #ffffff;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-link a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.button-link:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 2px solid #343638;
+}
+
+.black-triangle {
+  width: 100vw;
+  height: 216px;
+  background-color: #000000;
+  clip-path: polygon(0 0, 100% 0, 100% 100%);
+}
+
+.black-triangle p {
+  color: #ffffff;
+  max-width: 45%;
+  margin: 0 4% 10% auto;
+}
+
+.content {
+  position: relative;
+  bottom: 66px;
+  text-align: center;
+}
+
+.content h2 {
+  margin-bottom: 15px;
+}
+
+.left-grey {
+  max-width: 20%;
+  position: relative;
+  bottom: 54px;
+  left: 52px;
+  text-align: left;
+}
+
+.featured {
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  position: relative;
+  margin: 20px 20px 20px 55px;
+  padding: 10px;
+  width: 60%;
+  height: 300px;
+  background: url(../img/sample.jpg) no-repeat top;
+  background-size: cover;
+  overflow: hidden;
+  color: #ffffff;
+}
+
+.image h6 {
+  position: absolute;
+  bottom: 22px;
+  left: 20px;
+}
+
+.image button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  border: 2px solid #ffffff;
+  padding: 5px 10px;
+  display: inline-block;
+}
+
+.featured p {
+  text-align: center;
+  align-self: center;
+  margin: 6% 4% 8% 13%;
+  font-size: 12px;
+}
+
+.posts {
+  background: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  padding: 44px 2% 70px 2%;
+}
+
+.post {
+  max-width: 18%;
+  padding: 16px;
+  text-align: left;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.post button {
+  margin-top: 16px;
+  padding: 8px;
+  width: 100%;
+  background: #097774;
+  color: #ffffff;
+}
+
+.subscribe {
+  position: relative;
+  bottom: 20px;
+  padding: 0 20px 74px 24px;
+}
+
+.subscribe-form {
+  display: flex;
+  white-space: nowrap;
+  float: right;
+}
+
+.subscribe-form p {
+  font-size: 24px;
+  padding-top: 10px;
+  padding-right: 20px;
+}
+
+.subscribe form {
+  width: 13%;
+  padding-top: 8px;
+}
+
+.main-mail {
+  width: 145px;
+  height: 38px;
+  padding: 10px;
+  margin-right: 8px;
+  border: 1px solid #000000;
+  background-color: #f3f3f3;
+}
+
+.main-mail::placeholder {
+  color: #000000;
+}
+
+.main-submit {
+  width: 80px;
+  height: 38px;
+  background-color: #097774;
+  color: #ffffff;
+  outline: none;
+  border: none;
+}
+
+.main-submit:hover,
+.footer-submit:hover {
+  background-color: #ffffff;
+  color: #343638;
+}
+
+.main-footer {
+  bottom: 0;
+  height: 300px;
+  background-color: #ffffff;
+  padding: 5.5% 2%;
+}
+
+.main-footer form {
+  margin-top: 6px;
+}
+
+.quaters {
+  line-height: 1.5;
+  padding-bottom: 32px;
+}
+
+.quater {
+  width: 25%;
+  padding: 10px;
+  display: inline-block;
+  vertical-align: text-top;
+}
+
+.quater h4 {
+  margin-bottom: 15px;
+}
+
+.quater p {
+  color: #a4a4a4;
+  font-size: 12px;
+}
+
+.quater .time {
+  line-height: 2;
+  color: #e8e8e8;
+}
+
+.quater:nth-child(4) {
+  width: 22%;
+  padding-left: 0;
+}
+
+.footer-mail,
+.footer-submit {
+  height: 36px;
+  margin-top: 5px;
+  font-size: 12px;
+  padding-left: 3px;
+  padding-right: 3px;
+  border: 1px solid #000000;
+}
+
+.footer-mail {
+  width: 145px;
+  margin-right: 10px;
+  background-color: #f3f3f3;
+}
+
+.footer-mail::placeholder {
+  color: #343638;
+  padding-left: 5px;
+}
+
+.footer-submit {
+  width: 80px;
+  font-size: 15px;
+  background-color: #097774;
+  color: #ffffff;
+  padding: 0;
+}
+
+.bottom-footer {
+  padding-top: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-footer p {
+  color: #a4a4a4;
+  font-size: 12px;
+}
+
+.bottom-footer nav ul {
+  display: flex;
+  float: right;
+}
+
+.bottom-footer nav ul li {
+  display: inline-block;
+  padding: 0 10px;
+  font-size: 14px;
+}
+
+.bottom-footer nav ul li a {
+  color: #343638;
+  text-decoration: none;
+}
+
+.bottom-footer nav ul li a:hover {
+  color: #e8e8e8;
+}

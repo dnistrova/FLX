@@ -9,6 +9,7 @@ body {
   font-family: $font-family;
   font-size: $font-size-regular;
   background-color: $background-color;
+  overflow-x: hidden;
 }
 
 a {
