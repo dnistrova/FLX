@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+h2 {
+  font-weight: normal;
+}
+
+ul {
+  margin: 20px 30px 0 30px;
+  display: none;
+  padding-top: 20px;
+  padding-left: 20px;
+  border-top: 2px solid #000;
+}
+
+li {
+  width: 100%;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+li.label {
+  margin: 0;
+}
+
+i {
+  position: relative;
+  top: 3px;
+  padding-right: 10px;
+}
+
+footer {
+  position: absolute;
+  bottom: 10px;
+}
+
+img {
+  width: 50px;
+  display: block;
+  margin: 0 auto;
+  margin-left: 270px;
+}
+
+#root {
+  width: 600px;
+  height: 550px;
+  margin: 0 auto;
+  border: 1px solid #000;
+  position: relative;
+}
+
+#toDoEl {
+  width: 80%;
+}
+
+#root>ul {
+  display: block;
+}
+
+.header {
+  margin: 0 auto;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.material-icons.md-24 {
+  font-size: 24px;
+  top: 7px;
+  bottom: 0;
+}
+
+.delete {
+  float: right;
+  margin-right: 5px;
+}
+
+span.button {
+  cursor: pointer;
+}
+
+[draggable] {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  -khtml-user-drag: element;
+  -webkit-user-drag: element;
+}

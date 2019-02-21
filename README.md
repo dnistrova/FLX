@@ -18,3 +18,7 @@ Homework 7 (task 1) - https://dnistrova.github.io/FLX/FLX_homework_7/homework/sr
 
 Homework 7 (task 2) - 
 https://dnistrova.github.io/FLX/FLX_homework_7/homework/src/task2.html
+
+Homework 11 - https://dnistrova.github.io/FLX/FLX_homework_11/homework/index.html
+
+Homework 12 - https://dnistrova.github.io/FLX/FLX_homework_12/homework/index.html

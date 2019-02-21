@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Homework 12 - Simple TODO List</title>
+  <link rel="stylesheet" href="./assets/styles.css">
+</head>
+
+<body>
+  <div id="root">
+    <!--index page-->
+    <div id="index">
+      <h2>Simple TODO Application</h2>
+      <p id="notification">TODO is empty</p>
+      <button class="button" id="addButton" onclick="show('add')">Add New Task</button>
+      <ul id="list">
+        <li id="item_template" style="display: none">
+          <input class="checkbox" type="image" alt="checkbox" src="assets/img/todo-s.png" onclick="checkItem(this)">
+          <label onclick="modifyItem(this)"></label>
+          <input id="delete" class="delete" type="image" alt="remove" src="assets/img/remove-s.jpg" onclick="deleteItem(this)">
+        </li>
+      </ul>
+    </div>
+    <!--page #add-->
+    <div id="add">
+      <h2>Add Task</h2>
+      <input type="text" id="toDoEl">
+      <button class="button cancel" onclick="show('index')">Cancel</button>
+      <button class="button save" onclick="addTask()">Save changes</button>
+    </div>
+    <!--page #modify-->
+    <div id="modify">
+      <h2>Modify item</h2>
+      <input type="text" id="editTask">
+      <button class="button cancel" onclick="show('index')">Cancel</button>
+      <button class="button save" onclick="modifyTask()">Save changes</button>
+    </div>
+  </div>
+  <script src="./src/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+h2,
+li,
+#notification {
+  text-align: center;
+}
+
+h2 {
+  font-weight: normal;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+ul {
+  margin: 20px 30px 0 30px;
+  padding-top: 20px;
+  padding-left: 20px;
+  text-align: center;
+}
+
+li {
+  width: 100%;
+  list-style: none;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px auto;
+}
+
+label {
+  margin: 0 auto;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+li.checked {
+  background-color: gray;
+}
+
+span.button {
+  cursor: pointer;
+}
+
+#root {
+  width: 400px;
+  height: 550px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#root>ul {
+  display: block;
+}
+
+#addButton {
+  display: block;
+  margin: 0 auto;
+}
+
+#toDoEl {
+  width: 50%;
+}
+
+#add,
+#modify {
+  display: none;
+}
+
+.checkbox,
+.delete {
+  height: 24px;
+  bottom: 0;
+}
+
+.checkbox {
+  float: left;
+}
+
+.delete {
+  float: right;
+}
